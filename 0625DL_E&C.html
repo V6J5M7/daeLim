@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DL E&C 홈페이지</title>
+    <style type="text/css">
+        
+        /* --- reset CSS --- */
+        *{margin: 0; padding: 0;}
+        ul{list-style: none;}
+        img{border: 0px; vertical-align: top;}
+        a{text-decoration: none; color: black;}
+        
+        /* --- header --- */
+        #header{
+            width: 1200px; height: 70px;
+            margin: 0 auto;
+/*            background-color: aquamarine;*/
+            overflow: hidden;
+        }
+        
+        .logo{
+            float: left;
+            width: 150px; 
+            margin-top: 20px;
+/*            border: 1px dashed blue;*/
+        }
+        
+        .gnb{
+            float: left;
+            width: 900px; 
+        }
+        
+        .gnb li{
+            float: left;
+            width: 120px;
+            margin-top: 9px;
+            text-align: center;
+            font-size: 1em;
+            letter-spacing: -1px;
+            line-height: 50px;
+/*            border: 1px dashed red;*/
+        }
+        
+        .gnb li:hover{
+            border-bottom: 2px solid blue;
+        }
+        
+        .gnb li a{
+            display: block;
+        }
+        
+        .side_menu{
+            float: left;
+            width: 150px;
+        }
+        
+        .side_menu li{
+            float: left;
+            width: 35px;
+            margin-top: 24px;
+            text-align: right;
+            font-size: 10.5pt;
+/*            border: 1px dashed blue;*/
+        }
+        
+        .special1, .special2{
+            padding-top: 4px;
+        }
+        
+        .special2{
+            padding-left: -30px;
+        }
+        
+ 
+        /* --- section --- */
+        #section{
+            width: 100%;
+            height: 900px;
+            background-image: url(images/dl_ec/mbanner.jpg);
+            background-position: center;
+        }
+        
+        .container{
+            width: 1150px;
+            margin: 0 auto;
+            overflow: hidden; 
+            padding-top: 220px;
+/*            background-color: #6767f8;*/
+        }
+        
+        .box1{
+            text-align: center;
+        }
+        
+        h1{
+            font-size: 4em;
+            font-weight: bolder;
+            color: white;
+        }
+        
+        h2{
+            font-size: 15pt;
+            color: white;
+            font-weight: 500;
+        }
+        
+        .box2{
+            width: 1150px;
+            overflow: hidden;
+        }
+        
+        .box2 li{
+            float: left;
+            width: 350px;
+            height: 170px;
+            margin-left: 23px;
+            margin-top: 40px;
+            background-image: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 5px solid rgba(255, 255, 255, 0);
+            box-sizing: border-box;
+        }
+        
+        .box2 li:hover{
+            border: 5px solid white;
+        }
+        
+        .sbox1{
+            background-image: url(images/dl_ec/1.jpg);
+        }
+        
+        .sbox2{
+            background-image: url(images/dl_ec/3.jpg);
+        }
+        
+        .sbox3{
+            background-image: url(images/dl_ec/2.jpg);
+        }
+        
+        h3{
+            text-align: center;
+            font-weight: 500;
+            font-size: 11pt;
+            padding-top: 135px;
+            color: white;
+        }
+        
+        .box3{
+            margin-top: 90px;
+            text-align: center;
+        }
+        
+        h4{
+            font-size: 12pt;
+            font-weight: 400;
+            color: white;
+        }
+        
+        h5{
+            width: 160px;
+            height: 32px;
+            margin: 0 auto;
+            margin-top: 15px;
+            padding-top: 12px;
+            border: 2px solid #FFF;
+        }
+        
+        h5 .special3:hover{
+/*           text-decoration: underline; */
+        }
+        
+        h5 .special3{
+            color: white;
+            display: block;
+        }
+        
+        .box4{
+/*            width: 1150px;*/
+            overflow: hidden;
+            margin-top: 50px;
+            border-top: 1px solid #FFF;
+        }
+        
+        .box4 li{
+            float: left;
+            width: 250px;
+            height: 81px;
+            margin-left: 26px;
+            margin-top: 50px;
+            color: white;
+            text-align: center;
+            font-size: 12pt;
+            margin-top: 30px;
+/*            border: 1px dashed #000;*/
+        }
+        
+        .img01, .img02, .img03{
+            float: left;
+            margin-left: 50px;
+/*            border: 1px dashed white;*/
+        }
+        
+        p{
+            float: left;
+            width: 125px;
+            text-align: left;
+            padding-left: 15px;
+            padding-top: 4px;
+/*            border: 1px dashed white;*/
+        }
+        
+/*
+        .wtf{
+            font-size: 25pt;
+            padding-top: 19px;
+            margin-left: 30px;
+        }
+*/
+        
+        /* --- footer --- */
+        #footer{
+            width: 1200px; height: 70px;
+            margin: 0 auto;
+/*            background-color: aquamarine;*/
+/*            overflow: hidden;*/
+        }    
+        
+        .box5{
+            float: left;
+            width: 1200px;
+            overflow: hidden;
+/*            border: 1px solid black;*/
+        }
+        
+        .box5 li{
+            float: left;
+/*            border: 1px dashed red;*/
+            padding-top: 23px;
+            padding-right: 33px;
+            padding-left: 33px;
+            text-align: center;
+            font-size: 10pt;
+        }
+        
+        .wtf2{
+            padding: 0px;
+        }
+        
+        
+        
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="logo">
+            <a href="https://www.dlenc.co.kr/main.do"><img src="images/dl_ec/logo.png" alt="h로고"></a>
+        </div>
+        <ul class="gnb">
+            <li>
+                <a href="#">회사소개</a>
+                <ul class="sub">
+                    <li><a href="#">APPLE</a></li>
+                    <li><a href="#">BANANA</a></li>
+                    <li><a href="#">CHERRY</a></li>
+                    <li><a href="#">DURIAN</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">사업소개</a>
+                <ul class="sub">
+                    <li><a href="#">EGGPLANT</a></li>
+                    <li><a href="#">FUJI APPLE</a></li>
+                    <li><a href="#">GRAPE</a></li>
+                    <li><a href="#">HUCKLEBERRY</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">기술혁신</a>
+                <ul class="sub">
+                    <li><a href="#">ITALIAN BROCOLI</a></li>
+                    <li><a href="#">JACKFRUIT</a></li>
+                    <li><a href="#">KIWI</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">지속가능경영</a>
+                <ul class="sub">
+                    <li><a href="#">LIME</a></li>
+                    <li><a href="#">MELON</a></li>
+                    <li><a href="#">NECTARINE</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">투자정보</a>
+                <ul class="sub">
+                    <li><a href="#">ORANGE</a></li>
+                    <li><a href="#">PEACH</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">홍보센터</a>
+                <ul class="sub">
+                    <li><a href="#">QUEEN PALM FRUIT</a></li>
+                    <li><a href="#">RAMBUTAN</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">인재채용</a>
+                <ul class="sub">
+                    <li><a href="#">STRAWBERRY</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="side_menu">
+            <li class="special1">
+                <img src="images/dl_ec/dotbogee.png" alt="돋보기">
+            </li>
+            <li>ENG</li>
+            <li class="special2">
+               <img src="images/dl_ec/samson.png" alt="삼선"> 
+            </li>
+        </ul>
+    </div>
+    
+    <div id="section">
+        <div class="container">
+            <div class="box1">
+                <h1>INNOVATION</h1>
+                <h2>기본을 지켜 혁신을 이루다.</h2>
+            </div>
+            <ul class="box2">
+                <li class="sbox1"><h3>Aero Seoul Forest</h3></li>
+                <li class="sbox2"><h3>1915 Canakkale Bridge</h3></li>
+                <li class="sbox3"><h3>Petrochemical Plant</h3></li>
+            </ul>
+            <div class="box3">
+                <h4>대한민국 건설을 리드해온 DL이앤씨는<br>
+                    이제 종합설계시공(EPC) 뿐만 아니라 토탈솔루션 사업자로서 도약합니다.</h4>
+                <h5>
+                    <a class="special3" href="https://www.dlenc.co.kr/biz/Intro.do">사업소개 바로가기</a>
+                </h5>
+            </div>
+            <ul class="box4">
+                <li>DL 이앤씨 디지털 채널 <span class="wtf">></span></li>
+                <li>
+                    <img class="img01" src="images/dl_ec/31.png" alt="유툽로고">
+                    <p>유튜브</p>
+                </li>
+                <li>
+                    <img class="img02" src="images/dl_ec/32.png" alt="네블로고">
+                    <p>네이버 블로그</p>
+                </li>
+                <li>
+                    <img class="img03" src="images/dl_ec/33.png" alt="링크드인로고">
+                    <p>링크드인</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <ul class="box5">
+            <li>전자공고</li>
+            <li class="wtf2">|</li>
+            <li>원가절감제안</li>
+            <li class="wtf2">|</li>
+            <li>개인정보처리방침</li>
+            <li class="wtf2">|</li>
+            <li>영상정보처리기기운영관리방침</li>
+            <li class="wtf2">|</li>
+            <li>이메일무단수집거부</li>
+        </ul>
+    </div>
+    
+</body>
+</html>
